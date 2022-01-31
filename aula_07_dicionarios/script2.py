@@ -1,5 +1,5 @@
 #import da função
-from managerUsers import *
+from managerUsers import ask, inserir
 #dicionario de usuarios 
 usuarios ={}
 
@@ -10,7 +10,7 @@ opcao = ask()
 while opcao != "S":
     if opcao == "I":
       opcao = ask()
-        inserir(usuarios)
+      inserir(usuarios)
          
 
         
